@@ -1,0 +1,24 @@
+.homePage{
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    min-height: 100vh;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homePage a{
+    color: #5dc00cf5;
+}
+.homePage a:hover{
+    color: #70eb0ca6;
+    text-decoration: underline;
+}
+
+.homePage .title{
+    font-size: 72px;
+    line-height: 2;
+    text-align: center;
+    text-shadow: 1px 1px 22px #fff;
+}

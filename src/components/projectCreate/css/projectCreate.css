@@ -1,0 +1,70 @@
+.projectCreate{
+  grid-area: body;
+  padding:  0 10px 0px 10px;
+  margin-top: 40px;
+  color: rgb(21, 20, 20);
+}
+.projectCreate .createBtn{
+  cursor: pointer;
+  margin-top: 10px;
+  max-width: 30%;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background: rgb(105, 99, 133);
+  padding: 5px 15px;
+}
+
+.projectCreate .new-project{
+  display: flex;
+  flex-direction: column;
+}
+.new-project input{
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.new-project input::placeholder{
+  color: rgba(51, 51, 51, 0.445);
+  font-weight: 700;
+}
+
+.new-project #projectAbout{
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  resize: none;
+}
+.new-project #projectAbout::placeholder{
+  color: rgba(51, 51, 51, 0.445);
+  font-weight: 700;
+}
+
+
+.new-project .checkboxes{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.new-project .checkboxes .checkboxes__item{
+  margin-left: 20px;
+}
+.new-project .checkboxes .checkboxes__item:first-child{
+  margin-left: 0px;
+}
+
+
+.new-project .price{
+  display: inline-block;
+  width: 20%;
+}

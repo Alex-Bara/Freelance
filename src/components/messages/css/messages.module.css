@@ -1,0 +1,75 @@
+.messages {
+    grid-area: body;
+    padding: 0 10px 0 10px;
+    margin-top: 40px;
+    color: rgb(10, 10, 10);
+
+    display: flex;
+}
+
+.messages a {
+    color: #000;
+}
+
+.messagesUsers {
+    flex: 0 1 20%;
+}
+
+.users__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.users__item:hover {
+    box-shadow: -1px 2px 5px rgb(194, 196, 194);
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.user__info {
+    margin-left: 10px;
+}
+
+.userLogo img {
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.messagesBody {
+    flex: 0 1 79%;
+    margin-left: 1%;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+}
+
+.user_massage {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+.user_massage span{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #eee;
+    border: 1px solid #000;
+    margin-left: 10px;
+}
+.rm{
+    justify-content: flex-end;
+}
